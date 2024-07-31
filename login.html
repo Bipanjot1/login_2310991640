@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+    body {
+      background-image: url("https://images.pexels.com/photos/4016597/pexels-photo-4016597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") ;
+    }
+  </style>
+  <body>
+    <button onclick="askLocation()"><a href="signup.html">Click Here</a></button>
+    <script>
+      function askLocation() {
+        let location= prompt("Enter your location: ");
+        if (location == "Chandigarh" || location == "Punjab" || location == "Haryana") {
+          alert("welcome");
+        }
+      }
+    </script>
+  </body>
+</html>
